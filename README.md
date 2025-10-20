@@ -6,7 +6,8 @@ Repository for mapas, scripts and data for #30DaysMapChallenge
 # Progress
 
 - Day 1: ✅
-![](mapas/mapa_day1.png)
+  
+![](mapas/map_day1.png)
 
 - Day 2:
 - Day 3:
