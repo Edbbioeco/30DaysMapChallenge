@@ -1,4 +1,4 @@
-# 30DaysMapChallenge
+# [30 Days Map Challenge 2025](https://30daymapchallenge.com) 
 Repository for mapas, scripts and data for #30DaysMapChallenge
 
 ![](figures/figure1.jpeg)
