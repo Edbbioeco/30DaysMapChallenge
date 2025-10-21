@@ -17,7 +17,10 @@ Repository for mapas, scripts and data for #30DaysMapChallenge
 
 ![](mapas/map_day3.png)
 
-## Day 4:
+## Day 4: ✅
+
+![](mapas/map_day4.png)
+
 ## Day 5:
 ## Day 6:
 ## Day 7:
