@@ -20,11 +20,11 @@ library(maptiles)
 
 library(ggmagnify)
 
+library(ggspatial)
+
 library(ggtext)
 
 library(ggview)
-
-library(ggmagnify)
 
 library(patchwork)
 
