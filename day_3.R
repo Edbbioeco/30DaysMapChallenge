@@ -50,7 +50,7 @@ ggplot() +
 
 ggplot() +
   geom_sf(data = br, aes(fill = "Brazil"), color = "black") +
-  geom_sf(data = uc, aes(fill = "Conservation Units"), color = "darkgreen") +
+  geom_sf(data = uc, aes(fill = "Conservation Units"), color = "#0a3104", linewidth = 0.5) +
   geom_sf(data = br, fill = NA, color = "black", linewidth = 1) +
   scale_fill_manual(values = c("gray90",
                                "limegreen")) +
