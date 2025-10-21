@@ -12,6 +12,8 @@ library(sf)
 
 library(magrittr)
 
+library(ggview)
+
 # Dados ----
 
 ## Estados do Brasil ----
