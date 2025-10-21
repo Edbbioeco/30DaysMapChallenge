@@ -14,7 +14,7 @@ especies <- c(paste0("Caiman ", c("latirostris", "yacare", "crocodilus")),
               paste0("Paleosuchus ", c("palpebrosus", "trigonatus")),
               "Melanosuchus niger")
 
-especies
+especie
 
 ## Loop para baixar os dados de ocorrência ----
 

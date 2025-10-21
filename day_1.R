@@ -141,7 +141,8 @@ ggplot() +
         strip.background = element_rect(color = "black", linewidth = 1),
         panel.border = element_rect(color = "black", linewidth = 1),
         plot.title = element_text(size = 15, color = "black", hjust = 0.5),
-        plot.subtitle = element_text(size = 12.5, color = "black", hjust = 0.5)) +
+        plot.subtitle = element_text(size = 12.5,
+                                     color = "black", hjust = 0.5)) +
   ggview::canvas(height = 10, width = 12)
 
-ggsave(filename = "map_day1.png", height = 10, width = 12)
+ggsave(filename = "mapas/map_day1.png", height = 10, width = 12)
