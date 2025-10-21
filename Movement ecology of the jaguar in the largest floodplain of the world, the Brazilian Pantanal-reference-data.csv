@@ -1,0 +1,14 @@
+tag-id,animal-id,animal-taxon,deploy-on-date,deploy-off-date,animal-comments,animal-life-stage,animal-mass,animal-sex,attachment-type,deploy-on-latitude,deploy-on-longitude,deploy-on-person,deployment-end-type,deployment-id,duty-cycle,manipulation-type,tag-manufacturer-name,tag-mass,tag-model,tag-production-date,tag-readout-method,tag-serial-no
+1111,Fiao,Panthera onca,2011-12-01 06:00:00.000,2012-01-24 06:00:00.000,,4,102000.0,m,collar,,,,,1111_Fiao,6h,none,Televilt,,,,satellite,1111
+2222,Marrua,Panthera onca,2012-11-12 01:00:00.000,2013-01-18 06:00:00.000,,4,70000.0,f,collar,,,,,2222_Marrua,6h,none,Televilt,,,,satellite,2222
+34770,Picole,Panthera onca,2013-10-08 22:08:15.000,2015-05-29 14:01:00.000,Captured 2013-10-15,4,90000.0,m,collar,-16.8661414,-57.5333239,Selma Onuma,fall-off,34770_Picole,,none,Lotek,600.0,Iridium Track Medium,7/1/2013,satellite,34770
+34691,Wendy,Panthera onca,2013-10-09 00:00:00.000,2014-04-20 07:03:35.000,Captured 10-13-2013,5,65700.0,f,collar,,,,,34691_Wendy,2h,none,Lotek,600.0,Globalstar,7/1/2013,satellite,34691
+36318,Dale,Panthera onca,2014-08-28 00:02:34.000,2015-05-21 23:00:30.000,,7,80000.0,m,collar,,,,equipment-failure,36318_Dale,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36318
+36314,Daryl,Panthera onca,2014-09-01 00:00:00.000,2014-09-27 00:00:30.000,,4,68400.0,m,collar,,,,equipment-failure,36314_Daryl,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36314
+36316,Linda,Panthera onca,2014-11-27 00:00:00.000,2014-12-25 07:00:30.000,,5,77800.0,f,collar,,,,equipment-failure,36316_Linda,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36316
+36317,Caiman,Panthera onca,2014-11-29 00:00:00.000,2015-04-13 15:31:35.000,,5,110000.0,m,collar,,,,equipment-failure,36317_Caiman,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36317
+36312,Alice,Panthera onca,2014-12-05 00:00:00.000,2015-04-20 00:00:00.000,,4,70000.0,f,collar,,,,unknown,36312_Alice,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36312
+36313,Fera,Panthera onca,2014-12-05 00:00:00.000,2015-12-10 07:00:53.000,,4,82500.0,f,collar,,,,,36313_Fera,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36313
+36315,Anderson,Panthera onca,2014-12-07 12:58:24.000,2015-08-24 09:00:14.000,,8,101000.0,m,collar,,,,other,36315_Anderson,1h,none,Lotek,600.0,Iridium Track Medium,,satellite,36315
+35959,Milagre,Panthera onca,2015-10-10 00:00:00.000,2016-04-18 04:00:07.000,,6,96000.0,m,collar,,,,,35959_Milagre,1h,none,Lotek,,Iridium,,satellite,35959
+35957,Selema,Panthera onca,2015-10-11 00:00:00.000,2016-02-15 01:00:22.000,,6,70000.0,f,collar,,,,,35957_Selema,1h,none,Lotek,,Iridium,,satellite,35957
