@@ -106,7 +106,7 @@ ggplot() +
   coord_sf(xlim = c(-48.75515, -34.9),
            ylim = c(-18.34849, -1.049328),
            label_graticule = "SWE") +
-  labs(title = "Brazilian Northeastern Regeion Enhenced Evegetation Index (EVI) values",
+  labs(title = "Brazilian Northeastern Region Enhenced Evegetation Index (EVI) values",
        subtitle = "Source: AppEEARS, Nasa") +
   theme_bw() +
   theme(axis.text = element_text(size = 15, color = "black"),

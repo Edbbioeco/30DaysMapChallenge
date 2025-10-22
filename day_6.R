@@ -20,18 +20,9 @@ library(magrittr)
 
 library(rayshader)
 
+library(rgl)
+
 # Dados ----
-
-### Importando ----
-
-br <- geobr::read_state(year = 2018)
-
-### Visualizando ----
-
-br
-
-ggplot() +
-  geom_sf(data = br)
 
 ## Nordeste ----
 
@@ -157,3 +148,5 @@ rayshader::render_movie(filename = "mapas/map_day6.mp4",
                         theta = 0,
                         zoom = 0.7,
                         fov = 70)
+
+rgl::writeWebGL(filename = "mapas/map_day6.html")
