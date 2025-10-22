@@ -119,8 +119,7 @@ mapa_principal <- ggplot() +
                       aes(x, y, image = image),
                       size = 0.3) +
   labs(title = "<i>Tapirus terrestris</i> population deslocation along Brazlian Southwestern Region",
-       subtitle = "Data Source: Fleming <i>et al.</i> (2022). Population-level inference for home-range areas. <b>Methods in Ecology and Evolution</b>",
-       caption = "Image Source: IUCN Red List: <i>Tapirus terrestris</i> page",
+       subtitle = "Data Source: Fleming <i>et al.</i> (2022). Population-level inference for home-range<br>areas. <b>Methods in Ecology and Evolution</b><br>Image Source: IUCN Red List: <i>Tapirus terrestris</i> page",
        color = NULL,
        x = NULL,
        y = NULL) +
@@ -169,7 +168,7 @@ inset_map
 cowplot::ggdraw(mapa_principal) +
   cowplot::draw_plot(inset_map,
                      x = 0.5,
-                     y = 0.6,
+                     y = 0.55,
                      height = 0.35,
                      width = 0.35) +
   ggview::canvas(height = 10, width = 12)
