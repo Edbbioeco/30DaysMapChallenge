@@ -67,13 +67,26 @@ importar_ocorrencias <- function(especie, caminho){
 
   df <- readxl::read_xlsx(caminho)
 
-  assign(paste0("ocorrencias_", especies |> stringr::word(2)),
+  assign(paste0("ocorrencias_", especie |> stringr::word(2)),
          df,
          envir = globalenv())
+
+  nome_arquivo <- paste0("ocorrencias_", especie |> stringr::word(2))
 
 }
 
 caminho <- list.files(pattern = ".xlsx")
+
+caminho
+
+especies %<>% factor(levels = c("Caiman crocodilus",
+                                "Caiman latirostris",
+                                "Melanosuchus niger",
+                                "Paleosuchus palpebrosus",
+                                "Paleosuchus trigonatus",
+                                "Caiman yacare"))
+
+especies
 
 purrr::walk2(especies, caminho, importar_ocorrencias)
 
@@ -88,7 +101,7 @@ unido_ocorrencias
 ggplot() +
   geom_sf(data = paises, color = "black", fill = "royalblue") +
   geom_sf(data = america_latina, color = "black", fill = "gold") +
-  geom_point(data = unido_correncias, aes(lon, lat), size = 0.1) +
+  geom_point(data = unido_ocorrencias, aes(lon, lat), size = 0.1) +
   facet_wrap(~Espécie, ncol = 2)
 
 # Mapa ----
@@ -141,7 +154,7 @@ ggplot() +
         strip.background = element_rect(color = "black", linewidth = 1),
         panel.border = element_rect(color = "black", linewidth = 1),
         plot.title = element_text(size = 15, color = "black", hjust = 0.5),
-        plot.subtitle = element_text(size = 12.5,
+        plot.subtitle = element_text(size = 15,
                                      color = "black", hjust = 0.5)) +
   ggview::canvas(height = 10, width = 12)
 
