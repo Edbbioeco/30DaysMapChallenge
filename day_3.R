@@ -56,7 +56,7 @@ ggplot() +
                                "limegreen")) +
   labs(fill = NULL,
        title = "Brazilian Nature Conservation Units distribution",
-       subtitle = "Source: Instituto Brasileiro de Geografia Estatística (IBGE)") +
+       subtitle = "Data Source: Instituto Brasileiro de Geografia Estatística (IBGE)") +
   coord_sf(label_graticule = "SWE") +
   theme_bw() +
   theme(axis.text = element_text(size = 15, color = "black"),
@@ -66,7 +66,7 @@ ggplot() +
         strip.background = element_rect(color = "black", linewidth = 1),
         panel.border = element_rect(color = "black", linewidth = 1),
         plot.title = element_text(size = 15, color = "black", hjust = 0.5),
-        plot.subtitle = element_text(size = 12.5, color = "black", hjust = 0.5)) +
+        plot.subtitle = element_text(size = 15, color = "black", hjust = 0.5)) +
   ggview::canvas(height = 10, width = 12)
 
 ggsave(filename = "mapas/map_day3.png", height = 10, width = 12)

@@ -186,21 +186,23 @@ ggplot() +
           fill = "royalblue",
           alpha = 0.3,
           linewidth = 1) +
+  labs(color = "Brownian Bridge Moviment Model") +
   guides(color = guide_legend(title.position = "top",
                               title.hjust = 0.5)) +
+  scale_color_manual(values = c("royalblue",
+                                "orange")) +
+  ggnewscale::new_scale_color() +
   geom_path(data = dados,
             aes(long, lat, color = "Trajetória")) +
   geom_sf(data = sf_dados,
           aes(color = "Pontos de registro")) +
-  scale_color_manual(values = c("royalblue",
-                                "orange",
-                                "red",
+  scale_color_manual(values = c("red",
                                 "black")) +
   coord_sf(expand = FALSE,
            label_graticule = "SWE",
            xlim = c(-35.203, -35.19),
            ylim = c(-8.045, -8.031)) +
-  labs(color = "Brownian Bridge Moviment Model",
+  labs(color = NULL,
        x = NULL,
        y = NULL,
        title = "Map made on traject coordinates taken on Pernambuco Atlantic Forest",
@@ -215,12 +217,13 @@ ggplot() +
   theme_bw() +
   theme(axis.text = element_text(size = 15, color = "black"),
         legend.text = element_text(size = 15, color = "black"),
+        legend.title = element_text(size = 15, color = "black"),
         legend.position = "bottom",
         strip.text = element_text(size = 15, color = "black", face = "italic"),
         strip.background = element_rect(color = "black", linewidth = 1),
         panel.border = element_rect(color = "black", linewidth = 1),
         plot.title = element_text(size = 15, color = "black", hjust = 0.5),
-        plot.subtitle = element_text(size = 12.5, color = "black", hjust = 0.5)) +
+        plot.subtitle = element_text(size = 15, color = "black", hjust = 0.5)) +
   ggview::canvas(height = 10, width = 12)
 
 ggsave(filename = "mapas/map_day4.png", height = 10, width = 12)
