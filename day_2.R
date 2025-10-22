@@ -135,7 +135,7 @@ mapa_principal <- ggplot() +
         strip.background = element_rect(color = "black", linewidth = 1),
         panel.border = element_rect(color = "black", linewidth = 1),
         plot.title = ggtext::element_markdown(size = 15, color = "black", hjust = 0.5),
-        plot.subtitle = ggtext::element_markdown(size = 12.5,
+        plot.subtitle = ggtext::element_markdown(size = 15,
                                                  color = "black", hjust = 0.5)) +
   ggview::canvas(height = 10, width = 12)
 
