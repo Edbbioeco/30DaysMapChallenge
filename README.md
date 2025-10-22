@@ -21,11 +21,11 @@ Repository for mapas, scripts and data for #30DaysMapChallenge
 
 ![](mapas/map_day4.png)
 
-## Day 5:✅
+## Day 5: ✅
 
 ![](mapas/map_day5.png)
 
-## Day 6:
+## Day 6: ✅
 
 ![](mapas/map_day6.png)
 
