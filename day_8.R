@@ -113,7 +113,9 @@ ggplot() +
                                 "royalblue"),
                      name = NULL) +
   labs(title = "Map of Environmental Protected Area (APA) Aldeia Beberibe, the largest<br>Continuous Atlantic Forest fragment in Recife Metropolitan Region, Pernambuco",
-       subtitle = "Data Source: Pernambuco State Environmental Agency CPRH") +
+       subtitle = "Data Source: Pernambuco State Environmental Agency CPRH",
+       x = NULL,
+       y = NULL) +
   theme_bw() +
   theme(axis.text = element_text(size = 15, color = "black"),
         legend.text = ggtext::element_markdown(size = 15, color = "black"),
